@@ -68,6 +68,14 @@
   --accent-border: #9b6800;
   --accent-hover: #f2b705;
   --accent-hover-border: #754700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#playBtn img {
+  display: block;
 }
 
 .actions button:hover {
@@ -84,6 +92,13 @@
   outline: 3px solid #fff;
   outline-offset: 3px;
   box-shadow: 0 0 0 5px #173456;
+}
+
+.selected
+{
+  --accent-bg: #ffcb05;
+  --accent-border: #ffffff;
+  --accent-hover: #f2b705;
 }
 
 @media (max-width: 600px) {
